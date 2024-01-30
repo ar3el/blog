@@ -1,0 +1,31 @@
+.blog__image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.blog__content {
+    width: 70%;
+    margin: 35px auto;
+}
+
+.blog__title {
+    font-size: var(--font-size-big);
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 30px;
+}
+
+.blog__paragraphs {
+    font-size: var(--font-size);
+    color: #fff;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 670px) {
+    .blog__content {
+        width: 90%;
+    }
+}

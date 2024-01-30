@@ -1,0 +1,5 @@
+.footer {
+    font-size: var(--font-size);
+    height: 100px;
+    padding: 10px;
+}

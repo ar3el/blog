@@ -1,0 +1,7 @@
+.oops-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    color: var(--color-pr1);
+    font-size: var(--font-size);
+}

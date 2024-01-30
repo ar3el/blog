@@ -1,0 +1,21 @@
+.admin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: inherit;
+}
+
+.admin-panel {
+    margin-top: 50px;
+    padding: 48px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    width: 350px;
+    min-width: min-content;
+}
+
+.admin-panel__title {
+    font-size: var(--font-size);
+    font-weight: 700;
+    color: #35c3c1;
+}

@@ -1,0 +1,14 @@
+.blogs-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px 10px;
+    justify-content: center;
+    justify-items: center;
+    padding: 30px;
+}
+
+@media screen and (max-width: 670px) {
+    .blogs-container {
+        grid-template-columns: repeat(auto-fill, 100%);
+    }
+}

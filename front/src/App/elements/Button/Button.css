@@ -1,0 +1,16 @@
+.button {
+    font-size: 17px;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #35c3c1;
+    border: none;
+    outline: none;
+    transition: background-color 0.05s ease-in-out;
+    white-space: nowrap;
+}
+
+.button:active {
+    background-color: #80deea;
+}

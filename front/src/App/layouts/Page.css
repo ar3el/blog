@@ -1,0 +1,21 @@
+.layout {
+    background: linear-gradient(135deg, rgba(36, 46, 77, 0.9), rgba(137, 126, 121, 0.9));
+    position: relative;
+}
+
+.layout::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('../../icons/background-image.png');
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.main {
+    min-height: calc(100vh - 100px - 50px);
+}
